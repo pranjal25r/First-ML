@@ -49,7 +49,7 @@ rf_test_r2 = r2_score(y_test,y_rf_test_pred)
 rf_results = pd.DataFrame(['Random Forest ', rf_train_mse, rf_train_r2, rf_test_mse, rf_test_r2]).transpose()
 rf_results.columns = ['Method', 'Training MSE', 'Training R2', 'Test MSE', 'Test R2']
 
-
+'''Comparing the Models'''
 df_models = pd.concat([lr_results, rf_results], axis=0).reset_index(drop=True)
 print(df_models)
 
