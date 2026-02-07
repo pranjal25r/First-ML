@@ -1,4 +1,4 @@
-# 📊 First-ML: Model Comparison Using Machine Learning
+# 📊 Model Comparison Using Machine Learning
 
 This repository contains a beginner-friendly machine learning project where multiple regression models are implemented and compared on the same dataset "Delaney Solubility with Descriptors".
 The goal is to **understand model performance differences** between classical and ensemble learning methods.
